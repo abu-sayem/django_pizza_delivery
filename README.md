@@ -31,9 +31,6 @@ This is solution for assignment given by moberries  made using Django,Django RES
 
 * Just go the project directory and enter command :~`docker-compose up -d --build `  This will build the docker image used to run the project.
 
-
-* All tests should pass and then we can start the server using simply :~ `sudo docker-compose up`
-
 * Once the server starts go to `http://127.0.0.1:8000/` for api endpoints.
 
 * you can test using `docker-compose exec server python manage.py test orders` command.
